@@ -23,7 +23,7 @@ Dja.FFN.work = function(url){
 	if(!/\/s\/([0-9]+)/.test(url)){alert("Not a FFN story page!");}
 
   var id = url.match(/\/s\/([0-9]+)/)[1];
-	$.get(`http://localhost/s/${id}/1.htm`,function(data){
+	$.get(`https://www.fanfiction.net/s/${id}/1/`,function(data){
 		console.log(Dja.FFN.parseInfo(data));
 	});
 	}
