@@ -1,0 +1,24 @@
+*{ padding:0; margin:0; }
+
+#top{
+    padding: 5px;
+    background: seagreen;
+}
+form input[type=text]{
+    height: 40px;
+    width: 500px;
+    padding: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+form input[type=submit]{
+    width: 60px;
+    height: 40px;
+    border: 0px;
+    border-radius: 0px 20px 20px 0px;
+    background: yellowgreen;
+    color: beige;
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
